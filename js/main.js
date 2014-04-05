@@ -1,5 +1,11 @@
 $(function() {
+////////// Mobile Menu //////////
+	$('a.menu-icon').click(function(){
+		$('a#button').slideToggle();
+	});
 
+
+///////////////Contact form validation////////
 	function validateName(fullname){
 	  if(fullname.length > 2){
 	    $('#fullname').removeClass('error');
