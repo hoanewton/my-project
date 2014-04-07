@@ -1,5 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Rouge+Script);
 /* font-family: 'Rouge Script', cursive;  */
+@import url(http://fonts.googleapis.com/css?family=Allura);
+/* font-family: 'Allura', cursive;*/
+
 
 #home {
 background: rgb(252,236,252); /* Old browsers */
@@ -14,13 +17,13 @@ background-repeat: no-repeat;
 }
 
 .welcome {
-  font-family: 'Rouge Script', cursive;
+  font-family: 'Allura', cursive;
   font-size: 300%;
   text-align: center;
 }
 
 p .welcome {
-  font-family: 'Rouge Script', cursive;
+  font-family: 'Allura', cursive;
 }
 body {
   margin: 0;
