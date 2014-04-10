@@ -12,6 +12,9 @@ $(function() {
     }
   });
 
+  /////////Stupid table///////////////////
+  $('table').stupidtable();
+
 ///////////////Contact form validation////////
 	function validateName(fullname){
 	  if(fullname.length > 2){
