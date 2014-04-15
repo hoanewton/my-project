@@ -8,6 +8,13 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<link rel="stylesheet" href="js/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+	</script>
 </head>
 <body>
 	<div class="wrapper">
@@ -26,19 +33,19 @@
 	<div class="wrapper">
 
 		<section class="col-1 first">
-			<img src="images/my-office.jpg" width=200 height=250 alt="Cute kid" title="Eli Newton">
+			<a class="fancybox" rel="group" href="images/my-office.jpg"><img src="images/my-office.jpg" alt="" /></a>
 			<h3>My office</h3>
 			<p>This is also called "The circle of neglect".</p>
 		</section>
 
 		<section class="col-1">
-			<img src="images/my-cousin.jpg" width=200 height=250 alt="Eli Newton" title="Eli Newton">
+			<a class="fancybox" rel="group" href="images/my-cousin.jpg"><img src="images/my-cousin.jpg" alt="" /></a>
 			<h3>My dear cousin</h3>
 			<p>My cousin is from Canada. Well, the truth is this kid is nuts, he eats too much sand and runs naked on the beach when it's 40 degrees.</p>
 		</section>
 
 		<section class="col-1">
-			<img src="images/my-buddy.jpg" width=200 height=250 alt="Eli Newton" title="Eli Newton">
+			<a class="fancybox" rel="group" href="images/my-buddy.jpg"><img src="images/my-buddy.jpg" alt="" /></a>
 			<h3>Me and my buddy</h3>
 			<p>Little Betty is 3 months younger than I am but she is so tiny that she can't take my fist.</p>
 		</section>
@@ -54,34 +61,67 @@
         </section>
 
         <section class="col-1">
-			<img src="images/bath.jpg" width=200 height=250 alt="Eli Newton" title="Eli Newton">
+			<a class="fancybox" rel="group" href="images/bath.jpg"><img src="images/bath.jpg" alt="" /></a>
 			<h3>Bath time</h3>
 			<p>I spend my bath time to think about my "business" and I am pretty serious.</p>
 		</section>
 		<section class="col-1">
-			<img src="images/diaper-box.jpg" width=200 height=250 alt="Eli Newton" title="Eli Newton">
+			<a class="fancybox" rel="group" href="images/diaper-box.jpg"><img src="images/diaper-box.jpg" alt="" /></a>
 			<h3>My favorite toy</h3>
 			<p>I love riding this awesome magic box and having my grandma pushing around.</p>
 		</section>
 		<section class="col-1 clear first">
-			<img src="images/grumpy-minni.jpg" width=200 height=250 alt="Eli Newton" title="Eli Newton">
+			<a class="fancybox" rel="group" href="images/grumpy-minni.jpg"><img src="images/grumpy-minni.jpg" alt="" /></a>
 			<h3>My Halloween costume</h3>
 			<p>My mom was making me wear this ridiculous costum. I really do not appriciate it.</p>
 		</section>
 		<section class="col-1">
-			<img src="images/eli-travel.jpg" width=200 height=250 alt="Eli Newton" title="Eli Newton">
+			<a class="fancybox" rel="group" href="images/eli-travel.jpg"><img src="images/eli-travel.jpg" alt="" /></a>
 			<h3>My first trip</h3>
 			<p>I went to see my grandpa and everybody else. The people on the air plane laughed at me! I think they might have gotten the "laughing desease".</p>
 		</section>
 		<section class="col-1">
-			<img src="images/me-and-dogs.jpg" width=200 height=250 alt="Eli Newton" title="Eli Newton">
+			<a class="fancybox" rel="group" href="images/me-and-dogs.jpg"><img src="images/me-and-dogs.jpg" alt="" /></a>
 			<h3>Me with the dogs</h3>
 			<p>Oh boy, I love those dogs too much that I want to put them in my mouth.</p>
 		</section>
+
+		<section class="col-1 first clear">
+			<a class="fancybox" rel="group" href="images/christmas.jpg"><img src="images/christmas.jpg" alt="" /></a>
+			<h3>My first Christmas</h3>
+			<p>I think I like it eventhough I am not quite sure what it is. I like those lights</p>
+		</section>
+		<section class="col-1">
+			<a class="fancybox" rel="group" href="images/cup-on-head.jpg"><img src="images/cup-on-head.jpg" alt="" /></a>
+			<h3>Magic trick</h3>
+			<p>I can do an awesome magic trick balancing a tiny cup on my giant head.</p>
+		</section>
+		<section class="col-1">
+			<a class="fancybox" rel="group" href="images/first-swing.jpg"><img src="images/first-swing.jpg" alt="" /></a>
+			<h3>My first swing</h3>
+			<p>Well, I don't know. I was busy watching kids were running around crazy.</p>
+		</section>
+
+		<section class="col-1 first clear">
+			<a class="fancybox" rel="group" href="images/my-dress.jpg"><img src="images/my-dress.jpg" alt="" /></a>
+			<h3>Vietnamese dress</h3>
+			<p>This is Vietnamese tradditional dress. Yeah, I know, Mommy makes me look ridiculous AGAIN. She is pretty good at it.</p>
+		</section><section class="col-1">
+			<a class="fancybox" rel="group" href="images/eat-orange-peels.jpg"><img src="images/eat-orange-peels.jpg" alt="" /></a>
+			<h3>My favorite food</h3>
+			<p>It's fun to chew on it.</p>
+		</section><section class="col-1">
+			<a class="fancybox" rel="group" href="images/teeth.jpg"><img src="images/teeth.jpg" alt="" /></a>
+			<h3>My teeth</h3>
+			<p>These teeth are not for food but anything else.</p>
+		</section>
+
 	</div><!--wrapper-->
 
 <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 <script src="js/main.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox.pack.js?v=2.1.5"></script>
 </body>
 <footer>
 	<p class="wrapper footer clear">

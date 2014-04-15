@@ -65,6 +65,8 @@ $(function() {
 	});
 
 
+	$(".fancybox").fancybox();
+	
 
 
 
