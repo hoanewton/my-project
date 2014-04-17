@@ -65,17 +65,7 @@ $(function() {
 	});
 
 
-	$(".fancybox").fancybox();
 	
-
-
-
-
-
-
-
-
-
 
 
 

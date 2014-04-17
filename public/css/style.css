@@ -39,6 +39,10 @@ body {
 	border-bottom:1px solid #eee;
 			}
 
+header.home {
+  border-bottom: 1px solid #ccc;
+}
+
 h2,h3 {
     page-break-after: avoid;
 	}
@@ -61,13 +65,14 @@ nav {
   display: none;
 }
 
-img {
+img, video {
   width: 760px;
   margin: 0 auto;
   height: auto;
   max-width: 100%;
   vertical-align: middle;
-  border: 0;
+  border: 2px solid #ccc;
+  border-radius: 10px;
   -ms-interpolation-mode: bicubic;
 }
 
